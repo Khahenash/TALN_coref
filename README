@@ -1,0 +1,30 @@
+README
+
+	The Python script 'co-ref.py' automatically finds co-references between named
+	entities for annotated .txt files.
+
+NOTICE
+
+	data files in directory: ne/
+		all txt files in this directory will be used by the script
+
+	co-references file generated: etudiant4.ref
+
+	these path & filename can be changed in the script l20-26
+
+PARAMETERS
+
+	- PARAM1 (optional): test level between entities
+			1 equality
+			2 equality & inclusion
+			3 (default) equality, inclusion & acronyms
+
+HOW TO USE
+	
+	python co-ref.py [PARAM1]
+	
+	ex:
+	   python co-ref.py 2
+	   python co-ref.py
+	   ...
+
